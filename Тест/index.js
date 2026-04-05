@@ -1,2 +1,17 @@
-let randomeNamber = Math.trunc(Math.random() * 7) + 1;
-console.log(randomeNamber);
+function fullarr(x) {
+    let arr = [];
+    for (let i = 0; i < x; i++) {
+
+        if (i % 2 === 0) {
+            arr.push('.')
+        } else {
+            arr.push('#')
+        }
+    }
+    console.log(arr)
+}
+
+
+
+
+fullarr(3)
